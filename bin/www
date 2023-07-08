@@ -8,7 +8,7 @@ var app = require('../app');
 var debug = require('debug')('p-3-todoapi:server');
 var http = require('http');
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/todoAPI')
+mongoose.connect('mongodb+srv://gudimiyani:gudi123@cluster0.rwbukuo.mongodb.net/todoAPI')
   .then(() => console.log('Connected!'));
 
 /**
